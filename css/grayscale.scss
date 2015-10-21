@@ -167,6 +167,17 @@ ol {
     }
 }
 
+#Contact {
+    background: url( {{ site.contact-img }} ) no-repeat bottom center scroll;
+    background-color: $dark;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    height:105vh;
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
@@ -258,6 +269,7 @@ ol {
 
 .content-section {
     padding-top: 100px;
+    padding-top: 5vh;
 }
 
 .download-section {
@@ -281,6 +293,7 @@ ol {
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
+        padding-top: 5vh;
     }
 
     .download-section {
